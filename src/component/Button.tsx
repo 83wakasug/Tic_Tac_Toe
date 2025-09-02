@@ -28,6 +28,8 @@ const cssStyle = function style(parts: string) : React.CSSProperties {
       color: "white",
       borderRadius: "5px",
       cursor: "pointer",
+      justifyContent: "center",
+      alignItems: "center",
     };
   }
 
