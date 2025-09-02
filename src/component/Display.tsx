@@ -9,7 +9,14 @@ interface Props{
 
 const Display = (props:Props) => {
   return (
-    <div>"winner is {props.winner}</div>
+        <div
+        style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        marginTop: "20px",
+      }}
+    >Winner is {props.winner}</div>
   )
 }
 
